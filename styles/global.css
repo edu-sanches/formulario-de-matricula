@@ -29,6 +29,9 @@
     /* COLOR – SEMANTIC */
     --semantic-error: #DC2626;
 
+    /* BRAND COLORS */
+    --brand-color-dark: #E43A12;
+
 }
 
 body {

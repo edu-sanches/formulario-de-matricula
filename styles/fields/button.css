@@ -1,0 +1,33 @@
+button {
+    all: unset;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+    &.btn-primary {
+        border: 1px solid var(--brand-color-dark);
+        color: var(--surface-primary);
+        background-color: var(--brand-color-dark);
+
+        &:hover,
+        &:focus {
+            background-color: #F3541C;
+        }
+    }
+   
+    &.btn-secondary {
+        border: 1px solid var(--stroke-highlight);
+        color: var(--text-highlight);
+        background-color: var(--surface-primary);
+        margin-left: auto;
+
+        &:hover,
+        &:focus {
+            outline: 0.25rem solid var(--surface-secondary);
+            border: 0.125rem solid var(--brand-color-dark);
+            color: var(--brand-color-dark);
+        }
+    }
+    
+}
